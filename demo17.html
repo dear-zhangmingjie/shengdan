@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圣诞节</title>
+    <style>
+        a{
+            color: gold;
+            text-decoration: none;
+        }
+        body {
+            background: url(pictures/shengdan.png),no-repeat,center;
+        }
+        .con {
+            width: 1195px;
+            margin: 0 auto;
+            overflow: hidden;
+            height: 20px;
+        }
+        #tip {
+            color:seashell;
+            font-size: 15px;
+        }
+        #total{
+            width: 1200px;
+            margin:0 auto;
+            background-color: rgba(0,0,0,0.7);
+        }
+        #title {
+            width: 1200px;
+            height: 150px;
+            position: relative;
+        }
+        #pic1{
+            position: absolute;
+            top: 30px;
+            left:10px;
+        }
+        #shengdan1 {
+            width:1000px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 100px;
+            color: white;
+            font-family:"华文行楷";
+            position: absolute;
+            top: 30px;
+            left:120px;
+        }
+        .shengdan2 {
+            width:1200px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 50px;
+            color: white;
+            font-family:"华文行楷";
+        }
+        #text {
+            width:1200px;
+            height:50px;
+        }
+        #things {
+            list-style: none;
+        }
+        li {
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            font-family:"华文行楷";
+            width:220px;
+            float:left;
+        }
+        #part1 {
+            width: 1000px;
+            margin:0 auto;
+        }
+        .parthead {
+            color: royalblue;
+            font-size: 30px;
+        }
+        p {
+            color: white;
+        }
+        #smallpic{
+            height:120px; 
+        }
+        img{
+            float:left; 
+            margin-right:8px; 
+            margin-bottom:10px;
+        }
+        #smallpic img:hover{
+            cursor:pointer;
+        }
+        .bor {
+            border:1px solid red;
+        }
+        tr {
+            color: white;
+        }
+        .type{
+            color:seashell;
+            font-size: 20px;
+        }
+        #time {
+            width:1200px;
+            height: 150px;
+            position: relative;
+        }
+        #btn{
+            width:251px;
+            height: 80px;
+            background-image: url(pictures/xueren.png);
+            font-size: 20px;
+            font-family:"华文行楷";
+            position: absolute;
+            left: 300px;
+            top:50px;
+        }
+        .statement {
+            width:1200px;
+            height:100px;
+            background-color: silver;
+        }
+		.up {
+			display: none; 
+            width: 100px; 
+            height: 100px; 
+            background-image: url("pictures/top.jpg"); 
+			position: fixed; 
+            right: 10px; 
+            bottom: 20px;
+		}
+    </style>
+</head>
+<body id="body">
+    <div id = total>
+        <div class="con">
+            <div id="tip">🎄🎄🎅🎅圣诞节即将到来，你准备好了吗？🎅🎅🎄🎄</div>
+        </div>
+        <div class="shengdan2">❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄</div>
+        <div id = "title">
+            <img src="pictures/maozi.png" alt="" id = "pic1">
+            <div id="shengdan1">圣诞节/Christmas Day</div>
+        </div>
+        <div class="shengdan2">❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄</div>
+        <div id = text>
+            <ul id = "things">
+                <li id="li1"><a href="#origin">节日起源</a></li>
+                <li id="li2"><a href="#custom">节日习俗</a></li>
+                <li id="li3"><a href="#influence">社会影响</a></li>
+                <li id="li4"><a href="#works">艺术作品</a></li>
+                <li id="li4"><a href="#time">圣诞倒计时</a></li>
+            </ul>
+        </div>
+        <div id="part1">
+            <p class="parthead" id = "origin">节日起源</p>
+            <p><strong>纪念耶稣出生</strong>
+                据说耶稣是因着圣灵成孕，由圣母玛利亚所生的。
+                神便派遣使者加伯列在梦中晓谕约瑟，叫他不要因为玛利亚未婚怀孕而不要她，反而
+                要与她成亲，把那孩子起名为“耶稣”，意思是要他把百姓从罪恶中救出来。当玛利亚
+                快要临盆的时候，罗马政府下了命令，全部人民到伯利恒务必申报户籍。约瑟和玛利
+                亚只好遵命。他们到达伯利恒时，天色已昏，无奈两人未能找到旅馆渡宿，只有一个
+                马棚可以暂住。就在这时，耶稣要出生了。于是玛利亚唯有在马槽上，生下耶稣。后
+                人为纪念耶稣的诞生，便定十二月二十五为圣诞节，年年望弥撒，纪念耶稣的出世。
+            </p>
+            <p>
+            <strong>罗马教会设立</strong>
+            12月25日本是波斯太阳神（即光明之神）密特拉（Mithra）的诞辰，是一个异教徒节日，
+            同时太阳神也是罗马国教众神之一。这一天又是罗马历书的冬至节，崇拜太阳神的异教徒
+            把这一天当作春天的希望，万物复苏的开始。基于此原因，罗马教会选择这一天作为圣诞
+            节。这是教会初期力图把异教徒的风俗习惯基督教化的措施之一。后来，虽然大多数教会
+            都接受12月25日为圣诞节，但又固各地教会使用的历书不同，具体日期不能统一，于是就
+            把12月24日到第二年的1月6日定为圣诞节节期（Christmas Tide），各地教会可以根据
+            当地具体情况在这段节期之内庆祝圣诞节。自从12月25日被大多数教会公认为圣诞节后，
+            原来1月6日的主显节就只纪念耶稣受洗了，但天主教会又把1月6日定为“三王来朝节”，以
+            纪念耶稣生时东方三王（即三位博士）来朝拜的故事。随着基督教的广泛传播，圣诞节已
+            成为各教派基督徒，甚至广大非基督徒群众的一个重要节日。
+            </p>
+            <p class="parthead" id ="custom">节日习俗</p>
+            <p>圣诞卡，圣诞袜，圣诞帽，圣诞树，圣诞花环以及各种美食，典型的有英国火鸡，法国树干蛋糕，德国姜饼等等</p>
+            <div id="main">
+                <div id="smallpic">
+                    <img src="pictures/mao.png"  width="190" height="100" />
+                    <img src="pictures/shu.png"  width="190" height="100"/>
+                    <img src="pictures/wa.png"  width="190" height="100"/>
+                    <img src="pictures/huan.png"  width="190" height="100"/>
+                    <img src="pictures/heka.png"  width="190" height="100"/>
+                </div>
+            <div>
+                <img src="pictures/laoren.png" id="bigpic" width="1000" height="600"></div>
+            </div>
+
+
+            <p class="parthead" id="influence">社会影响</p>
+            <p><strong>经济方面</strong>
+                在全球经济不景气的情况下，全球的圣诞经济并不乐观。虽然较平常确有不小幅度的升温，
+                但远远低于历史水平。尤其是类似希腊这样陷入债务危机的国家，经济本身并没有复苏，
+                购物的人们只能转转无奈离去。英国、加拿大、新加坡、美国等国由于经济好转，在商家
+                的大力促销下圣诞经济快速回升圣诞节对于没有基督文化背景的中国人来说，只是提供了
+                购物或是又一个出国游玩的时间点罢了。中国国内众多城市都有了圣诞狂欢，商场、超市
+                等在圣诞前后都有大型促销活动。也催生出了一个现象：“浙江义乌，号称世界圣诞饰品之
+                都。”全球70%的圣诞饰品都来自这里。2011年圣诞前后，众多中国人纷涌至英国各大城市
+                购物，英国国内所售奢侈品的近三分之一都被中国人买走。在这种令人乍舌的购买力引导之
+                下，不少国家在圣诞节专门推出针对中国人的有消费优惠的旅游计划。而英国伦敦更是有不
+                少商家在圣诞节前后，专门雇佣会说普通话的店员，帮助中国顾客选购商品。2010年，中国
+                内地游客在英国消费总量超过10亿英镑，英国本国居民的奢侈品消费需求则不足中国游客的一半。
+            </p>
+            <p><strong>文化方面</strong> 
+                从最初的宗教节日，发展成为一个具有全球性的节日。圣诞节宗教涵义逐渐与世界各地文化
+                传统糅合。有些是在宗教文化基础上演化，成为更加丰富多彩的圣诞节宗教文化。有些则逐
+                渐世俗化、商业化，甚至政治化。圣诞节宗教神秘感的逐渐淡化，固然与科学发展有关，也
+                与商品经济有关。市场经济下可以用各种赢利的形式包装圣诞节，商家使出各式各样的促销
+                手段吸引消费者购买商品，圣诞节在使人们获得更多节日消费的理由的同时，也增添更多节
+                日闲聊的谈资——消费文化。圣诞节文化的多元取向，使世界更精彩。
+            </p>
+            <p class="parthead" id="works">艺术作品</p>
+            <p class="type">书籍</p>
+            <table border="1px solid white">
+                <tr>
+                    <th>作品名</th>
+                    <th>作者</th>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/%E5%9C%A3%E8%AF%9E%E8%80%81%E7%88%B8/10019521">《圣诞老爸》</a></td>
+                    <td>雷蒙德·布里格斯</td>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/%E5%A8%81%E5%BB%89%E5%85%88%E7%94%9F%E7%9A%84%E5%9C%A3%E8%AF%9E%E6%A0%91">《威廉先生的圣诞树》</a></td>
+                    <td>罗勃·巴利</td>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/%E5%9C%A3%E8%AF%9E%E8%8A%82%E4%B8%AD%E7%9A%84%E7%A7%91%E5%AD%A6%E5%8E%9F%E7%90%86">《圣诞节中的科学原理》</a></td>
+                    <td>罗杰·海菲德</td>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/%E5%9C%A3%E8%AF%9E%E8%80%81%E4%BA%BA%E7%9A%84%E7%8E%8B%E5%9B%BD">《圣诞老人的王国》</a></td>
+                    <td>嘉纳纯子、松本智年、一色恭子、猿渡静子</td>
+                </tr>
+            </table>
+            <p class="type">电影</p>
+            <table border="1px solid white">
+                <tr>
+                    <th>作品名</th>
+                    <th>作者</th>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/Joy%20to%20the%20World/198369">《普世欢腾，救主下降》</a></td>
+                    <td>菲丝·希尔</td>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/%E9%93%83%E5%84%BF%E5%93%8D%E5%8F%AE%E5%BD%93/10947665?fromtitle=jingle%20bells&fromid=5861966">《铃儿响叮当》</a></td>
+                    <td>詹姆斯·罗德·皮尔彭特</td>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/Jingle%20Bell%20Rock/2745749">《Jingle bell rock》</a></td>
+                    <td>Bobby Helms、Joe Beal & Jim Boothe</td>
+                </tr>
+            </table>
+            <p class="type">歌曲</p>
+            <table border="1px solid white">
+                <tr>
+                    <th>作品名</th>
+                    <th>作者</th>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/%E5%B0%8F%E9%AC%BC%E5%BD%93%E5%AE%B6/35470">《小鬼当家》</a></td>
+                    <td>克里斯·哥伦布</td>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/%E5%9C%A3%E8%AF%9E%E7%B2%BE%E7%81%B5/82081">《圣诞精灵》</a></td>
+                    <td>乔恩·费儒</td>
+                </tr>
+                <tr>
+                    <td><a href="https://baike.baidu.com/item/%E7%9C%9F%E7%88%B1%E8%87%B3%E4%B8%8A/1671898">《真爱至上》</a></td>
+                    <td>理查德·柯蒂斯</td>
+                </tr>
+            </table>
+            <p class="parthead" id="works">圣诞倒计时</p>
+            <div id="time">
+                <button id="btn">点击查看倒计时</button>
+            </div>
+        </div>
+        <div class="shengdan2">❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄  ❄</div>
+        <div class="statement">
+            <p>版本声明：仅供河北师范大学软件学院雪梨作业使用</p>
+            <p>Version statement: only for Sydney homework of School of software, Hebei Normal University</p>
+        </div>
+    </div>
+    <div id="top" class="up" onclick="goTop()" ></div>
+    <div id="flame"></div>
+</body>
+<script>
+    var tip = document.getElementById("tip");
+    tip.style.marginLeft = "0";
+    var intervalId1 = setInterval(function() {
+        var marginLeft = parseInt(tip.style.marginLeft);
+        tip.style.marginLeft = (marginLeft+1)+"px";
+        if(tip.style.marginLeft == "1200px") {
+            tip.style.marginLeft = "0";
+        }
+    },10)
+    var shengdan1 = document.getElementById("shengdan1");
+    var intervalId1 = setInterval(function() {
+        var arr = [0,1,2,3,4,5,6,7,8,9,"a","b","c","d","e","f"];
+        var bgColor="#";
+        for(var i=0;i<6;i++) {
+            var index = parseInt(Math.random()*arr.length);
+            bgColor += arr[index]; 
+        }
+        shengdan1.style.color = bgColor;
+    },100)
+    
+    var main = document.getElementById("main");
+    var smallpic = document.getElementById("smallpic");
+    var imgList = document.getElementsByTagName("img");
+    var bigpic = document.getElementById("bigpic");
+    for(var i=0;i<imgList.length;i++) {
+        imgList[i].onclick = function() {
+            var imgSrc = this.getAttribute("src");
+            bigpic.setAttribute("src", imgSrc);
+            for(var j=0;j<imgList.length;j++) {
+                imgList[j].setAttribute("class", "");
+            }
+            this.setAttribute("class", "bor");
+        }
+    }
+    
+    var btn = document.getElementById("btn");
+    var time = document.getElementById("time");
+    var getp = document.createElement("p");
+    getp.style.fontSize = "40px";
+    getp.style.fontFamily = "华文行楷";
+    time.append(getp);
+    btn.onclick = function() {
+        var date = new Date();
+        var month = date.getMonth()+1;
+        var day = date.getUTCDate();
+        var hour = date.getHours();
+        var count = 0;
+        if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+            count = 31;
+        } else if(month == 4 || month == 6 || month == 9 || month == 11) {
+            count = 30;
+        } else {
+            if(((date.getFullYear() % 4 == 0) && (date.getFullYear() % 100 != 0)) || date.getFullYear() % 400 == 0) {
+                count = 29;
+            } else {
+                count = 28;
+            }
+        }
+        if(month == 12){
+            getp.innerHTML = "现在距离圣诞节还有"+(12-month)+"月"+(24-day)+"天"+(24-hour)+"小时，等待好运降临吧！";
+        } else {
+            if(day < 25){
+                getp.innerHTML = "现在距离圣诞节还有"+(12-month)+"月"+(24-day)+"天"+(24-hour)+"小时，等待好运降临吧！";
+            }else {
+                getp.innerHTML = "现在距离圣诞节还有"+(12-month-1)+"月"+(24 + (count-day))+"天"+(24-hour)+"小时，等待好运降临吧！";
+            }            
+        }
+    }
+    var body = document.getElementById("body");
+    body.onmousemove = function() {
+        body.style.cursor = "url(pictures/xueren.png),auto";
+    }
+
+    function goTop(){
+		var odiv = document.getElementById("top");
+		document.documentElement.scrollTop = document.body.scrollTop = 0;
+	}
+    window.onscroll = function(){
+		var odiv = document.getElementById("top");
+		var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+		if(scrollTop > 1500){	
+			odiv.style.display = "block";
+		} else {
+			odiv.style.display = "none";
+		}
+	}
+
+    function Obj(){}
+    Obj.prototype.draw = function(o){
+        var speed = 0; 
+        var startPosLeft = Math.ceil(Math.random()*1400);
+        o.style.opacity = (Math.ceil(Math.random()*3)+7)/10;  
+        o.style.left = startPosLeft + 'px'; 
+        o.style.color = "#fff";
+        o.style.fontSize = 12 + Math.ceil(Math.random()*14)+'px';
+        setInterval(function(){
+            if(speed < document.body.scrollHeight){
+                o.style.top = speed +'px';
+                o.style.left = startPosLeft + Math.ceil(Math.random()*8)+'px';
+                speed += 10;
+            }
+            else {
+                o.style.display = 'none';
+            }
+        },30);
+    }
+    var flame = document.getElementById('flame');
+    var obj;
+    setInterval(function(){
+        var odiv = document.createElement('div');  
+        odiv.innerHTML = "❄";  
+        odiv.style.position = 'absolute'; 
+        flame.appendChild(odiv);  
+        obj = new Obj();  
+        obj.draw(odiv); 
+    },200);  
+</script>
+</html>
